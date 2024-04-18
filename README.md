@@ -24,7 +24,7 @@ Before running the application, ensure that you have the following prerequisites
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/wpcodevo/crud-app-pymongo.git
+   git clone https://github.com/vins4407/Python-Sample-Crud-App.git
 
 2. Navigate to the project directory:
    ```bash
@@ -40,13 +40,15 @@ Before running the application, ensure that you have the following prerequisites
         source venv/bin/activate
         
 ## Install dependencies:
-    ```bash
-        pip install -r requirements.txt
-    ```
+```bash
+     pip install -r requirements.txt
+```
 
 ## Start MongoDB server locally or use Docker
- ```bash
- ```
+    ```bash
+    docker-compose up -d
+    ```
+
 ## Run the FastAPI server:
    ```bash
         uvicorn app.main:app --reload
