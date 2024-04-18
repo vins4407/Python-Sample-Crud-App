@@ -42,12 +42,15 @@ Before running the application, ensure that you have the following prerequisites
 ## Install dependencies:
 ```bash
      pip install -r requirements.txt
+
 ```
 
 ## Start MongoDB server locally or use Docker
 ```bash
     docker-compose up -d
+     
 ```
+
 
 ## Run the FastAPI server:
    ```bash
