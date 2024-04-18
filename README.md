@@ -18,7 +18,6 @@ Before running the application, ensure that you have the following prerequisites
 - Python 3.7+
 - MongoDB server or Docker
 - FastAPI and PyMongo dependencies (see `requirements.txt`)
-- Frontend app dependencies (if running frontend locally)
 
 ## Running the Application Locally
 
@@ -26,40 +25,36 @@ Before running the application, ensure that you have the following prerequisites
 
    ```bash
    git clone https://github.com/wpcodevo/crud-app-pymongo.git
-Navigate to the project directory:
-bash
-Copy code
-cd crud-app-pymongo
-Set up a virtual environment (optional but recommended):
-bash
-Copy code
-python -m venv venv
-# Activate the virtual environment
-# Windows
-venv\Scripts\activate.bat
-# Linux/Mac
-source venv/bin/activate
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Start the MongoDB server (if not using Docker):
-bash
-Copy code
-# Start MongoDB server locally or use Docker
-Run the FastAPI server:
-bash
-Copy code
-uvicorn app.main:app --reload
-(Optional) Run the frontend app locally (if applicable):
-bash
-Copy code
-# Instructions to run frontend app
-Project Structure
-The project structure is as follows:
 
-bash
-Copy code
+2. Navigate to the project directory:
+   ```bash
+     cd crud-app-pymongo
+
+3. Set up a virtual environment (optional but recommended):
+   ```bash
+        python -m venv venv
+        # Activate the virtual environment  
+        # Windows
+        venv\Scripts\activate.bat 
+        # Linux/Mac
+        source venv/bin/activate
+        
+## Install dependencies:
+    ```bash
+        pip install -r requirements.txt
+    ```
+
+## Start MongoDB server locally or use Docker
+ ```bash
+ ```
+## Run the FastAPI server:
+   ```bash
+        uvicorn app.main:app --reload
+   ```
+
+## Project Structure
+The project structure is as follows:
+``` bash
 ├── app
 │   ├── main.py        # FastAPI application setup
 │   ├── database.py    # MongoDB connection setup
@@ -69,7 +64,9 @@ Copy code
 ├── tests              # Test files (if available)
 ├── .env               # Environment variables
 └── README.md          # Project README file
-API Endpoints
+```
+## API Endpoints
+
 The application provides the following API endpoints:
 
 GET /api/notes: Retrieve all notes
@@ -79,11 +76,10 @@ PATCH /api/notes/{noteId}: Edit a note
 DELETE /api/notes/{noteId}: Remove a note
 For detailed documentation on each endpoint, refer to the Swagger UI or OpenAPI documentation provided by FastAPI.
 
-Contributing
+## Contributing
 Contributions to this project are welcome. Please follow the guidelines outlined in the CONTRIBUTING.md file.
 
-License
+## License
 This project is licensed under the MIT License.
 
-# Python-Sample-Crud-App
 # Python-Sample-Crud-App
