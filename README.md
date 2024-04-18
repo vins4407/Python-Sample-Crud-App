@@ -81,8 +81,6 @@ PATCH /api/notes/{noteId}: Edit a note
 DELETE /api/notes/{noteId}: Remove a note
 For detailed documentation on each endpoint, refer to the Swagger UI or OpenAPI documentation provided by FastAPI.
 
-## Contributing
-Contributions to this project are welcome. Please follow the guidelines outlined in the CONTRIBUTING.md file.
 
 ## License
 This project is licensed under the MIT License.
