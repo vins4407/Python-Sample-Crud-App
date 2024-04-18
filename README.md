@@ -45,9 +45,9 @@ Before running the application, ensure that you have the following prerequisites
 ```
 
 ## Start MongoDB server locally or use Docker
-    ```bash
+```bash
     docker-compose up -d
-    ```
+```
 
 ## Run the FastAPI server:
    ```bash
