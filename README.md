@@ -28,7 +28,7 @@ Before running the application, ensure that you have the following prerequisites
 
 2. Navigate to the project directory:
    ```bash
-     cd crud-app-pymongo
+     cd Python-Sample-Crud-App
 
 3. Set up a virtual environment (optional but recommended):
    ```bash
