@@ -74,11 +74,12 @@ The project structure is as follows:
 
 The application provides the following API endpoints:
 
-GET /api/notes: Retrieve all notes
-POST /api/notes: Create a new note
-GET /api/notes/{noteId}: Get a single note
-PATCH /api/notes/{noteId}: Edit a note
-DELETE /api/notes/{noteId}: Remove a note
+- GET /api/notes: Retrieve all notes
+- POST /api/notes: Create a new note
+- GET /api/notes/{noteId}: Get a single note
+- PATCH /api/notes/{noteId}: Edit a note
+- DELETE /api/notes/{noteId}: Remove a note
+
 For detailed documentation on each endpoint, refer to the Swagger UI or OpenAPI documentation provided by FastAPI.
 
 
